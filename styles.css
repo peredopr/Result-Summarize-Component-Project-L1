@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Outfit&family=Roboto:wght@100&display=swap');
+body {
+    text-align: center;
+    margin: auto;
+    font-family: Outfit;
+}
+
+p {font-size: 15px; font-weight: normal; color: #c8c7ff; margin-top: 0;}
+
+.div-master {
+    margin: 100px auto auto;
+    display: inline-block;
+    position: absolute;
+    right: 400px;
+    height: 380px;
+    width: 530px;
+    box-shadow: 10px 10px 10px #c8c7ff;
+    border-radius: 20px;
+}
+
+.div-left {
+    background-image: linear-gradient(to top, #2e2be9, #7857ff);
+    float: left;
+    width: 50%;
+    height: 380px;
+    border-radius: 20px;
+    
+    
+}
+
+.p-div {
+    width: 70%;
+    margin: auto;
+}
+
+.circle {
+    background-image: linear-gradient(to top, #2421ca00, #4e21ca);
+    width: 140px;
+    margin: 40px auto 20px;
+    border-radius: 100%;
+    height: 140px;
+}
+
+.div-right {
+    float: right;
+    height: 380px;
+    width: 264px;
+}
+
+.div-right-img {
+    float: left;
+    margin: 9px 10px auto;
+}
+
+.div-right-p {
+    position: relative;
+    top: 9px;
+}
+
+.div-reaction {
+    background-color: #ffdfdf;
+    width: 85% ;
+    margin: 15px auto;
+    height: 35px;
+    border-radius: 10px;
+    
+}
+
+.p-reaction {
+    color: #ff5757;
+    float: left;
+    margin: 9px auto;
+}
+
+.div-memory { 
+    background-color: #fff1d8;
+    width: 85%;
+    margin: 15px auto;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.p-memory {
+    color: #ffb01f;
+    float: left;
+    margin: 9px auto;
+}
+
+.div-verbal {
+    background-color: #e3fff8;
+    width: 85%;
+    margin: 15px auto;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.p-verbal {
+    color: #00bd91;
+    float: left;
+    margin: 9px auto;
+}
+.div-visual {
+    background-color: #dce0ff;
+    width: 85%;
+    margin: 15px auto;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.p-visual {
+    color: #1125d4;
+    float: left;
+    margin: 9px auto;
+}
+
+#score {
+    font-family: Outfit;
+    margin: 0 auto;
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+}
+
+.great{color: white; font-family: Outfit; font-size: 26px; margin: 0 auto 10px;}
+
+.of100 {margin-top: 0; letter-spacing: 0;}
+
+.y-result {
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #e0e0ff;
+}
+
+.summary {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.blank-div {
+    height: 30px;
+}
+
+.score-table-div {
+    float: right;
+    width: 70px;
+    height: 30px;
+}
+
+.span {
+    color: #303b5a;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3e52a3; }
+
+.button {
+	background-color:#303b5a;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-weight: normal;
+	font-size:20px;
+	padding:16px 76px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#404d70;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
